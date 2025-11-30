@@ -14,7 +14,7 @@ export default async function handler(
 ) {
     // ЖЕСТКО прописываем CORS заголовки
     const headers = {
-        'Access-Control-Allow-Origin': 'https://matveysatana-person-site-7864.twc1.net',
+        'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Methods': 'GET, OPTIONS, POST, PUT, DELETE',
         'Access-Control-Allow-Headers': 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version'
     };
